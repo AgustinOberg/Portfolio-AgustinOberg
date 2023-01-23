@@ -4,6 +4,8 @@ import {
   MyWork,
   Presentation,
   SectionSpacer,
+  Contact,
+  Footer,
 } from "@/components";
 
 export default function Home() {
@@ -16,6 +18,9 @@ export default function Home() {
       <SectionSpacer />
       <AboutMe />
       <SectionSpacer />
+      <Contact />
+      <SectionSpacer />
+      <Footer />
     </>
   );
 }

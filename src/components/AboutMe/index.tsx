@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section className="flex flex-wrap md:px-16 justify-center md:justify-between">
       <div className="h-80 w-80 bg-red-400 rounded-full shadow-md" />
-      <div className="w-80 md:grow px-4 md:px-12 pt-4 md:pt-0 ">
+      <div className="md:w-80 md:grow px-4 md:px-12 pt-4 md:pt-0 ">
         <SectionTitle className="text-center md:text-left">
           About me
         </SectionTitle>
